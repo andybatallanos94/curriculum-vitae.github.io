@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="favicon-512.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <script src="https://kit.fontawesome.com/6e2587debe.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        ul.a {
+            list-style-type: circle;
+        }
+        ul.b {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function mostrarInfo(divParaMostrar, divParaOcultar1, divParaOcultar2, divParaOcultar3, divParaOcultar4){
+            document.getElementById(divParaMostrar).style.display = 'block';
+            document.getElementById(divParaOcultar1).style.display = 'none';
+            document.getElementById(divParaOcultar2).style.display = 'none';
+            document.getElementById(divParaOcultar3).style.display = 'none';
+            document.getElementById(divParaOcultar4).style.display = 'none';
+        }
+
+        window.onload = function () { 
+    
+            mostrarInfo('div-presentacion-info','div-email-info','div-celular-info','div-fecha-nacimiento-info','div-direccion-info');
+        }
+    </script>
+    
+    <div id="contenedor-global">
+
+        <div id="contenedor-principal">
+            
+
+                <div id="contenedor-informacion-personal">
+                    <div id="contenedor-imagen">
+                        <img id="imagen-perfil" src="https://randomuser.me/api/portraits/men/41.jpg" alt="Leon Anderson"/>
+                    </div>
+                    
+                    <div id="contenedor-informacion-complementaria">
+                        <div id="div-presentacion-info">
+                            <h3>Hola</h3>
+                            <p>Mi nombre es Leon Anderson</p>
+                        </div>
+                        <div id="div-email-info" >
+                            <h3>Email</h3>
+                            <p>leon.anderson@gmail.com</p>
+                        </div>
+                        <div id="div-celular-info" >
+                            <h3>Celular</h3>
+                            <p>(298)377-2092</p>
+                        </div>
+                        <div id="div-fecha-nacimiento-info" >
+                            <h3>Fecha de Nacimiento</h3>
+                            <p>01/08/1987</p>
+                        </div>
+                        <div id="div-direccion-info" >
+                            <h3>Dirección</h3>
+                            <p>Avenida Miller 8382</p>
+                        </div>
+                    </div>
+                    
+                    <div id="contenedor-datos">
+                        <div id="div-presentacion"><button onclick="mostrarInfo('div-presentacion-info','div-email-info','div-celular-info','div-fecha-nacimiento-info','div-direccion-info'); return false;"><i class="fa-sharp fa-solid fa-user"></i></button></div>
+                        <div id="div-email"><button onclick="mostrarInfo('div-email-info','div-presentacion-info','div-celular-info','div-fecha-nacimiento-info','div-direccion-info'); return false;"><i class="fa-sharp fa-solid fa-envelope"></i></button></div>
+                        <div id="div-celular"><button onclick="mostrarInfo('div-celular-info','div-email-info','div-presentacion-info','div-fecha-nacimiento-info','div-direccion-info'); return false;"><i class="fa-sharp fa-solid fa-phone"></i></button></div>
+                        <div id="div-fecha-nacimiento"><button onclick="mostrarInfo('div-fecha-nacimiento-info','div-email-info','div-celular-info','div-presentacion-info','div-direccion-info'); return false;"><i class="fa-sharp fa-solid fa-calendar-days"></i></button></div>
+                        <div id="div-direccion"><button onclick="mostrarInfo('div-direccion-info','div-email-info','div-celular-info','div-fecha-nacimiento-info','div-presentacion-info'); return false;"><i class="fa-sharp fa-solid fa-house"></i></button></div>
+                    </div>
+
+                    
+                    
+                </div>
+
+
+                
+                <div id="contenedor-informacion-profesional">
+                   
+                    <h3><i class="fa-sharp fa-solid fa-user-tie"></i>  Profesión</h3>
+                    <p>Licenciado en Análisis de Sistemas</p>
+                    
+                    
+                    <h3><i class="fa-sharp fa-solid fa-briefcase"></i>  Experiencia laboral</h3>
+                    <ul class="a">
+                        <li>Google</li>
+                        <li>Claro</li>
+                        <li>MercadoLibre</li>
+                    </ul>
+                        
+                    
+
+
+                    <h3><i class="fa-sharp fa-solid fa-desktop"></i>  Cursos</h3>
+                    <ul>
+                        <li>Businness Analytics</li>
+                        <li>Diseño UX</li>
+                        <li>Photoshop Marketing</li>
+                    </ul>
+
+
+                    <h3><i class="fa-sharp fa-solid fa-flag"></i>  Idioma</h3>
+                    <ul class="b">
+                        <li>Inglés</li>
+                        <li>Francés</li>
+                        <li>Portugués</li>
+                    </ul>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+                
+        
+            
+
+        </div>
+
+        
+
+    </div>
+</body>
+</html>

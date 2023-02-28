@@ -1,0 +1,147 @@
+
+body div {
+    background-color: azure;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+
+#contenedor-global {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+
+
+#contenedor-principal {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    background-color: aquamarine;
+}
+
+
+
+#contenedor-informacion-personal {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 1%;
+}
+
+#contenedor-informacion-personal i {
+    font-size: 50px;
+}
+
+#contenedor-informacion-personal i:hover{
+    font-size: 50px;
+    color:rgb(40, 34, 227);
+}
+
+#contenedor-informacion-personal button {
+    border: none;
+    background-color: rgb(12, 218, 233);
+}
+
+#contenedor-informacion-personal div{
+    background-color:aquamarine !important;
+}
+
+#contenedor-imagen {
+    width: 100%;
+}
+
+#imagen-perfil {
+    border-radius: 30px 30px 30px 30px;
+}
+
+#contenedor-informacion-complementaria {
+    width: 100%;
+}
+
+#contenedor-datos {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+#contenedor-datos div {
+    background-color: rgb(12, 218, 233) !important;
+}
+
+
+
+#div-presentacion {
+    float: left;
+    width: 20%;
+    background-color:aquamarine;
+}
+
+#div-email {
+    float: left;
+    width: 20%;
+    background-color:aquamarine;
+}
+
+#div-celular {
+    float: left;
+    width: 20%;
+    background-color:aquamarine;
+}
+
+#div-fecha-nacimiento {
+    float: left;
+    width: 20%;
+    background-color:aquamarine;
+}
+
+#div-direccion {
+    float: left;
+    width: 20%;
+    background-color:aquamarine;
+}
+
+#contenedor-informacion-profesional {
+    float: left;
+    width: 50%;
+    margin-left: 3%;
+    background-color:aquamarine;
+    opacity: 0.8;
+}
+
+
+#footer {
+    width: 70%;
+    float: left;
+}
+
